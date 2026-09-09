@@ -1,0 +1,13 @@
+# Python 3.12 (Spark 4.x is not tested on 3.13+)
+# Requires JDK 17/21/25 — NOT 26 (removes jdk.internal.ref.Cleaner, which Spark needs)
+pyspark==4.2.0
+numpy==2.5.3
+pandas==2.3.3
+pyarrow==25.0.1
+scikit-learn==1.9.0
+xgboost==3.4.1
+lightgbm==4.7.0
+matplotlib==3.11.1
+seaborn==0.13.2
+jupyterlab==4.6.3
+tqdm==4.70.0

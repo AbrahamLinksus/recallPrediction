@@ -104,7 +104,7 @@ off-heap memory layer depends on. `src/spark_session.py` looks for a JDK in
 uv venv --python 3.12 .venv
 VIRTUAL_ENV=.venv uv pip install -r requirements.txt
 
-# Duolingo HLR dataset (379MB)
+# Duolingo HLR dataset
 curl -L -o data/raw/learning_traces.13m.csv.gz \
   https://s3.amazonaws.com/duolingo-papers/publications/settles.acl16.learning_traces.13m.csv.gz
 
